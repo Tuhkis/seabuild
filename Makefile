@@ -8,3 +8,7 @@ all: main.o
 
 main.o: src/main.c src/strings.h
 	$(CC) -c src/main.c $(CFLAGS)
+
+clean:
+	rm *.o
+	rm seabuild
